@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Skill Analyzer App</string>
+    <string name="tab_text_1">KNOWN</string>
+    <string name="tab_text_2">SHOULD</string>
+    <string name="tab_text_3">MAY BE</string>
+    <string name="action_settings">Check result</string>
+    <string name="action_settings1">Two</string>
+    <string name="action_settings2">Three</string>
+    <string name="knownSkills">Known skills</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string-array name="planets_array">
+        <item><font color="#ed2553">Beginner</font></item>
+        <item><font color="#ed2553">Intermediate</font></item>
+        <item><font color="#ed2553">Advanced</font></item>
+
+    </string-array>
+</resources>

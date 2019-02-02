@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:descendantFocusability="blocksDescendants">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="13dp"
+        android:text="Title"
+        android:textColor="#000"
+        android:textSize="18dp"
+
+        />
+
+    <TextView
+        android:id="@+id/subHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:paddingBottom="5dp"
+        android:paddingLeft="13dp"
+        android:paddingStart="13dp"
+        android:text="Sub title"
+        android:textColor="@android:color/holo_red_dark"
+
+        android:textSize="14dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@id/title"
+        tools:layout_editor_absoluteX="129dp" />
+
+    <ImageButton
+        android:id="@+id/editContent"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_margin="20dp"
+        android:contentDescription="TODO"
+        android:src="@drawable/edit"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="10dp" />
+
+</android.support.constraint.ConstraintLayout>
